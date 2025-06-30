@@ -1,0 +1,26 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "description": "- **Frontend**: Next.js, Tailwind CSS, Redux Toolkit, Redux Toolkit Query, Material UI Data Grid\r - **Backend**: Node.js with Express, Prisma (PostgreSQL ORM)\r - **Database**: PostgreSQL, managed with PgAdmin\r - **Cloud**: AWS EC2, AWS RDS, AWS API Gateway, AWS Amplify, AWS S3, AWS Lambda, AWS Cognito",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "client": "npm run dev --prefix client",
+      "server": "npm run dev --prefix server",
+      "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PurnaSaradhi18/Project-Management-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PurnaSaradhi18/Project-Management-System/issues"
+  },
+  "homepage": "https://github.com/PurnaSaradhi18/Project-Management-System#readme"
+}
