@@ -1,5 +1,7 @@
 # Build a Complete Project Management Dashboard
 
+### **Deploy Link: ([Click here](https://main.d11tp8fdk1l0fg.amplifyapp.com/))**
+
 ## Technology Stack
 
 - **Frontend**: Next.js, Tailwind CSS, Redux Toolkit, Redux Toolkit Query, Material UI Data Grid
